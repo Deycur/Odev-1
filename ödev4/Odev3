@@ -1,0 +1,37 @@
+
+HTML:
+HTML --> Hiper Metin İşaretleme Dili (HTML, İngilizce HyperText Markup Language kelimelerinin baş harflerinin kısaltılmasıdır) 
+web sayfalarını oluşturmak için kullanılan standart metin işaretleme dilidir. 
+----------------------------------------------------------------
+HTML Locators:
+ID: Bir öğenin benzersiz kimliğini temsil eder ve öğeyi bulmak için kullanılır.
+    HTML etiketi içinde "id" öznitelik değeriyle belirtilir. Örneğin: <input id="username" type="text" name="username">.
+Name: Bir öğenin adını temsil eder. HTML etiketi içinde "name" öznitelik değeriyle belirtilir. 
+    Örneğin: <input id="username" type="text" name="username">.
+XPath: Bir öğeyi bulmak için kullanılan yol ifadesidir. XPath ifadesi, HTML belgesinde öğenin konumunu belirten bir yoludur. 
+    Örneğin: "//input[@id='username']".
+CSS Selector: Bir öğeyi seçmek için kullanılan bir yol ifadesidir. CSS seçicileri, HTML belgesindeki öğeleri seçmek için kullanılan bir dizi düzenleyici ve öğelerdir. 
+    Örneğin: "input#username" veya "input[name='username']".
+
+----------------------------------------------------------------
+Selenium'da aksiyonlar (send_keys, click vb..)
+
+Find elements: Web sayfasındaki elementleri bulmak için kullanılan metodlar (find_element_by_*)
+
+Click: Bulunan bir elementi tıklamak için kullanılan metod (click())
+
+Send keys: Bir elemente yazı yazmak için kullanılan metod (send_keys())
+
+Clear: Bir elementin içeriğini temizlemek için kullanılan metod (clear())
+
+Get text: Bir elementin metnini almak için kullanılan özellik (text)
+
+Get attribute: Bir elementin belirli bir özelliğini almak için kullanılan metod (get_attribute())
+
+Refresh: Sayfayı yenilemek için kullanılan metod (refresh())
+
+Wait: Belirli bir koşulun gerçekleşmesini beklemek için WebDriverWait sınıfını kullanmak.
+
+Find multiple elements: Sayfadaki belirli bir içeriği bulmak için kullanılan metodlar (find_elements_by_*)
+
+Switch window: Farklı bir pencereye geçmek için kullanılan metod (switch_to.window())
